@@ -8,15 +8,19 @@ import Welcome from './components/Welcome';
 import Hello from './components/Hello';
 import Message from './components/Message';
 import Counter from './components/Counter';
+import FunctionClick from './components/FunctionClick';
+import ClassClick from './components/ClassClick';
 
 export class App extends Component {
   render() {
     return (
       <div className="App">
+        <FunctionClick />
+        <ClassClick />
         {/* <Counter /> */}
         {/* <Message /> */}
-        <Greet name="Diana" heroName="Wonderwoman" />
-        <Welcome name="Clark" heroName="Batman" />
+        {/* <Greet name="Diana" heroName="Wonderwoman" /> */}
+        {/* <Welcome name="Clark" heroName="Batman" /> */}
         {/* <Greet name="Bruce" heroName="Superman">
           <p>This is children props.</p>
         </Greet>
