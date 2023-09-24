@@ -19,12 +19,14 @@ import './components/appStyles.css';
 import styles from './components/appStyles.module.css';
 import Form from './components/Form';
 import LifeCycleA from './components/LifeCycleA';
+import ParentComp from './components/ParentComp';
 
 export class App extends Component {
   render() {
     return (
       <div className="App">
-        <LifeCycleA />
+        <ParentComp />
+        {/* <LifeCycleA /> */}
         {/* <Form /> */}
         {/* <h1 className="error">Error</h1>
         <h1 className={styles.success}>Sucess</h1>
